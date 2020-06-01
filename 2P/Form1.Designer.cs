@@ -56,35 +56,32 @@
             // P6
             // 
             this.P6.Image = global::_2P.Properties.Resources._6;
-            this.P6.Location = new System.Drawing.Point(502, 103);
+            this.P6.Location = new System.Drawing.Point(496, 103);
             this.P6.Name = "P6";
             this.P6.Size = new System.Drawing.Size(100, 115);
             this.P6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.P6.TabIndex = 6;
+            this.P6.TabIndex = 0;
             this.P6.TabStop = false;
-            this.P6.Click += new System.EventHandler(this.P6_Click);
             // 
             // P5
             // 
             this.P5.Image = global::_2P.Properties.Resources._5;
-            this.P5.Location = new System.Drawing.Point(396, 103);
+            this.P5.Location = new System.Drawing.Point(390, 103);
             this.P5.Name = "P5";
             this.P5.Size = new System.Drawing.Size(100, 115);
             this.P5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.P5.TabIndex = 5;
+            this.P5.TabIndex = 1;
             this.P5.TabStop = false;
-            this.P5.Click += new System.EventHandler(this.P5_Click);
             // 
             // P4
             // 
             this.P4.Image = global::_2P.Properties.Resources._4;
             this.P4.Location = new System.Drawing.Point(302, 103);
             this.P4.Name = "P4";
-            this.P4.Size = new System.Drawing.Size(88, 115);
+            this.P4.Size = new System.Drawing.Size(82, 115);
             this.P4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.P4.TabIndex = 4;
+            this.P4.TabIndex = 2;
             this.P4.TabStop = false;
-            this.P4.Click += new System.EventHandler(this.P4_Click);
             // 
             // P3
             // 
@@ -116,6 +113,7 @@
             this.P1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.P1.TabIndex = 1;
             this.P1.TabStop = false;
+            this.P1.Click += new System.EventHandler(this.P1_Click);
             // 
             // Inicio
             // 
@@ -131,6 +129,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Inicio";
             this.Text = "Form1";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Inicio_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.P6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.P5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.P4)).EndInit();

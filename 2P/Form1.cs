@@ -12,13 +12,15 @@ namespace _2P
 {
     public partial class Inicio : Form
     {
+        Salida Exit = new Salida();
+
         public Inicio()
         {
             InitializeComponent();
             
         }
         
-        private void P1_Click(object sender, EventArgs e)
+          private void P1_Click(object sender, EventArgs e)
         {
             Form PrimerGrado = new Primero();
             PrimerGrado.Show();
@@ -41,26 +43,9 @@ namespace _2P
 
         }
 
-        private void P4_Click(object sender, EventArgs e)
+        private void Inicio_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Form CuartoGrado = new Cuarto();
-            CuartoGrado.Show();
-            this.Hide();
-        
-        }
-
-        private void P5_Click(object sender, EventArgs e)
-        {
-            Form QuintoGrado = new Quinto();
-            QuintoGrado.Show();
-            this.Hide();
-        }
-
-        private void P6_Click(object sender, EventArgs e)
-        {
-            Form SextoGrado = new Sexto();
-            SextoGrado.Show();
-            this.Hide();
+            Exit.Salir();
         }
     }
 }

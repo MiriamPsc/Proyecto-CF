@@ -8,3 +8,9 @@ C:\Users\miria\source\repos\2P\2P\obj\Debug\2P.csproj.CoreCompileInputs.cache
 C:\Users\miria\source\repos\2P\2P\obj\Debug\2P.exe
 C:\Users\miria\source\repos\2P\2P\obj\Debug\2P.pdb
 C:\Users\miria\source\repos\2P\2P\obj\Debug\_2P.Inicio.resources
+C:\Users\miria\source\repos\2P\2P\obj\Debug\_2P.E1.resources
+C:\Users\miria\source\repos\2P\2P\obj\Debug\_2P.Primero.resources
+C:\Users\miria\source\repos\2P\2P\obj\Debug\_2P.M1.resources
+C:\Users\miria\source\repos\2P\2P\obj\Debug\_2P.MA1.resources
+C:\Users\miria\source\repos\2P\2P\obj\Debug\_2P.Segundo.resources
+C:\Users\miria\source\repos\2P\2P\obj\Debug\_2P.Tercero.resources

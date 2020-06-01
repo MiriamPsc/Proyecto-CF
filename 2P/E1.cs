@@ -10,18 +10,25 @@ using System.Windows.Forms;
 
 namespace _2P
 {
-    public partial class Tercero : Form
+    public partial class E1 : Form
     {
+        Form MenuPrimero = new Primero();
         Salida Exit = new Salida();
 
-        public Tercero()
+        public E1()
         {
             InitializeComponent();
         }
 
-        private void Tercero_FormClosed(object sender, FormClosedEventArgs e)
+        private void BtnVolver_Click(object sender, EventArgs e)
+        {
+            MenuPrimero.Show();
+        }
+
+        private void E1_FormClosed(object sender, FormClosedEventArgs e)
         {
             Exit.Salir();
+
         }
     }
 }

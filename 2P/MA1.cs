@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace _2P
 {
-    public partial class Sexto : Form
+    public partial class MA1 : Form
     {
-        public Sexto()
+        Salida Exit = new Salida();
+
+        public MA1()
         {
             InitializeComponent();
+        }
+
+        private void MA1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Exit.Salir();
         }
     }
 }
