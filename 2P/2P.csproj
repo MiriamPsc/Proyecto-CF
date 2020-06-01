@@ -46,14 +46,50 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cuarto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuarto.Designer.cs">
+      <DependentUpon>Cuarto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Primero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Primero.Designer.cs">
+      <DependentUpon>Primero.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quinto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quinto.Designer.cs">
+      <DependentUpon>Quinto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Segundo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Segundo.Designer.cs">
+      <DependentUpon>Segundo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sexto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sexto.Designer.cs">
+      <DependentUpon>Sexto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tercero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tercero.Designer.cs">
+      <DependentUpon>Tercero.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

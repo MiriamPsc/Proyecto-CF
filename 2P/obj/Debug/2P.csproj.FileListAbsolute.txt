@@ -1,0 +1,10 @@
+C:\Users\miria\source\repos\2P\2P\bin\Debug\2P.exe.config
+C:\Users\miria\source\repos\2P\2P\bin\Debug\2P.exe
+C:\Users\miria\source\repos\2P\2P\bin\Debug\2P.pdb
+C:\Users\miria\source\repos\2P\2P\obj\Debug\2P.csprojAssemblyReference.cache
+C:\Users\miria\source\repos\2P\2P\obj\Debug\_2P.Properties.Resources.resources
+C:\Users\miria\source\repos\2P\2P\obj\Debug\2P.csproj.GenerateResource.cache
+C:\Users\miria\source\repos\2P\2P\obj\Debug\2P.csproj.CoreCompileInputs.cache
+C:\Users\miria\source\repos\2P\2P\obj\Debug\2P.exe
+C:\Users\miria\source\repos\2P\2P\obj\Debug\2P.pdb
+C:\Users\miria\source\repos\2P\2P\obj\Debug\_2P.Inicio.resources
