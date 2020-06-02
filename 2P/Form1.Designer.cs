@@ -92,7 +92,6 @@
             this.P3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P3.TabIndex = 3;
             this.P3.TabStop = false;
-            this.P3.Click += new System.EventHandler(this.P3_Click);
             // 
             // P2
             // 
@@ -128,7 +127,7 @@
             this.Controls.Add(this.P1);
             this.Controls.Add(this.label1);
             this.Name = "Inicio";
-            this.Text = "Form1";
+            this.Text = "MENÚ";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Inicio_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.P6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.P5)).EndInit();

@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace _2P
 {
-    public partial class Tercero : Form
+    public partial class M2 : Form
     {
-        Salida Exit = new Salida();
-
-        public Tercero()
+        public M2()
         {
             InitializeComponent();
-        }
-
-        private void Tercero_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            Exit.Salir();
         }
     }
 }

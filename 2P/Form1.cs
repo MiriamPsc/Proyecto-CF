@@ -35,14 +35,6 @@ namespace _2P
 
         }
 
-        private void P3_Click(object sender, EventArgs e)
-        {
-            Form TercerGrado = new Tercero();
-            TercerGrado.Show();
-            this.Hide();
-
-        }
-
         private void Inicio_FormClosed(object sender, FormClosedEventArgs e)
         {
             Exit.Salir();

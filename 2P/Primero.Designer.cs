@@ -76,7 +76,7 @@
             this.C1.Name = "C1";
             this.C1.Size = new System.Drawing.Size(120, 63);
             this.C1.TabIndex = 3;
-            this.C1.Text = "CUIDADO DEL MEDIO";
+            this.C1.Text = "CONOCIMIENTO DEL MEDIO";
             this.C1.UseVisualStyleBackColor = true;
             this.C1.Click += new System.EventHandler(this.C1_Click);
             // 

@@ -13,7 +13,7 @@ namespace _2P
     public partial class M1 : Form
     {
         Salida Exit = new Salida();
-
+        Form MenuPrimero = new Primero();
         public M1()
         {
             InitializeComponent();
@@ -22,6 +22,11 @@ namespace _2P
         private void M1_FormClosed(object sender, FormClosedEventArgs e)
         {
             Exit.Salir();
+        }
+
+        private void BtnVolver_Click(object sender, EventArgs e)
+        {
+            MenuPrimero.Show();
         }
     }
 }
