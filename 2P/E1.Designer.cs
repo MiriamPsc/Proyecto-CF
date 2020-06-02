@@ -561,6 +561,7 @@
             this.r1.Name = "r1";
             this.r1.Size = new System.Drawing.Size(100, 33);
             this.r1.TabIndex = 2;
+            this.r1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.R1_KeyPress);
             // 
             // label6
             // 
@@ -578,6 +579,7 @@
             this.r2.Name = "r2";
             this.r2.Size = new System.Drawing.Size(100, 33);
             this.r2.TabIndex = 4;
+            this.r2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.R2_KeyPress);
             // 
             // label7
             // 
@@ -595,6 +597,7 @@
             this.r3.Name = "r3";
             this.r3.Size = new System.Drawing.Size(100, 33);
             this.r3.TabIndex = 6;
+            this.r3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.R3_KeyPress);
             // 
             // pictureBox1
             // 
