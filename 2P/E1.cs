@@ -16,15 +16,25 @@ namespace _2P
     {
         Form MenuPrimero = new Primero();
         Salida Exit = new Salida();
-        int Calificacion, resp1, resp2, resp3;
-     
+        int resp1, resp2, resp3, c11, c12, c13, c14, c15, c16, c17, c18, c19, c20, t;
+        bool c1, c2, c3, c4, c5, c6, c7, c8, c9, c10;
+
         public E1()
         {
             InitializeComponent();
-            Calificacion = 0;
             resp1 = 3;
             resp2 = 1;
             resp3 = 2;
+            c1 = cb1.Checked;
+            c2 = cb2.Checked;
+            c3 = cb3.Checked;
+            c4 = cb4.Checked;
+            c5 = cb5.Checked;
+            c6 = cb6.Checked;
+            c7 = cb7.Checked;
+            c8 = cb8.Checked;
+            c9 = cb9.Checked;
+            c10 = cb10.Checked;
 
         }
 
@@ -41,65 +51,75 @@ namespace _2P
 
         //REVISAR ESTO PARA LOS PUNTOS
 
+
         private void BtnCalificar_Click(object sender, EventArgs e)
         {
+            switch (c1)
             {
-                if (cb1.Checked == true)
-                {
-                    Calificacion = 2;
-                }
-                else if (cb2.Checked == true)
-                {
-                    Calificacion = (Calificacion - 1);
-                }
-                else if (cb3.Checked == true)
-                {
-                    Calificacion = (Calificacion - 1);
-                }
-                else if (cb4.Checked == true)
-                {
-                    Calificacion = (Calificacion + 2);
-                    if (cb4.Checked == false)
-                    {
-                        Calificacion = (Calificacion - 1);
-                    }
-                }
-                else if (cb5.Checked == true)
-                {
-                    Calificacion = (Calificacion + 2);
-                    if (cb5.Checked == false)
-                    {
-                        Calificacion = (Calificacion - 1);
-                    }
-                }
-                else if (cb6.Checked == true)
-                {
-                    Calificacion = (Calificacion - 1);
-                }
-                else if (cb7.Checked == true)
-                {
-                    Calificacion = (Calificacion - 1);
-                }
-                else if (cb8.Checked == true)
-                {
-                    Calificacion = (Calificacion - 1);
-                }
-                else if (cb9.Checked == true)
-                {
-                    Calificacion = (Calificacion + 2);
-                    if (cb9.Checked == false)
-                    {
-                        Calificacion = (Calificacion - 1);
-                    }
-                }
-                else if (cb10.Checked == true)
-                {
-                    Calificacion = (Calificacion - 1);
-
-                }
-
-                lblCalificacion.Text = ("" + Calificacion);
+                case true:
+                    c11 = 2;
+                    break;
+                case false:
+                    c11 = 0;
+                    break;
             }
+            switch (c2)
+            {
+                case true:
+                    c12 = -2;
+                    break;
+            }
+            switch (c3)
+            {
+                case true:
+                    c13 = -2;
+                    break;
+            }
+            switch (c4)
+            {
+                case true:
+                    c14 = 2;
+                    break;
+            }
+            switch (c5)
+            {
+                case true:
+                    c15 = 2;
+                    break;
+            }
+            switch (c6)
+            {
+                case true:
+                    c16 = -2;
+                    break;
+            }
+            switch (c7)
+            {
+                case true:
+                    c17 = c17 - 2;
+                    break;
+            }
+            switch (c8)
+            {
+                case true:
+                    c18 = -2;
+                    break;
+            }
+            switch (c9)
+            {
+                case true:
+                    c19 = 2;
+                    break;
+            }
+            switch (c10)
+            {
+                case true:
+                    c20 = 2;
+                    break;
+            }
+            t = c11 + c12 + c13 + c14 + c15 + c16 + c17 + c18 + c19 + c20;
+            lblCalificacion.Text = ("" + t);
+
         }
 
         private void LinkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -109,11 +129,11 @@ namespace _2P
 
         public void Pregunta1()
         {
-           if(rb3.Checked==true)
+            if (rb3.Checked == true)
             {
                 lbl1.Text = ("MUY BIEN");
             }
-           else if(rb2.Checked==true)
+            else if (rb2.Checked == true)
             {
                 lbl1.Text = ("INTENTA DE NUEVO");
             }
@@ -140,7 +160,7 @@ namespace _2P
 
         private void R1_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if(!char.IsControl(e.KeyChar)&& !char.IsDigit(e.KeyChar))
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
             {
                 e.Handled = true;
             }
@@ -188,19 +208,19 @@ namespace _2P
 
         private void BtnCalificar4_Click(object sender, EventArgs e)
         {
-           int iresp1 = int.Parse(r1.Text);
-           int iresp2 = int.Parse(r2.Text);
-           int iresp3 = int.Parse(r3.Text);
+            int iresp1 = int.Parse(r1.Text);
+            int iresp2 = int.Parse(r2.Text);
+            int iresp3 = int.Parse(r3.Text);
 
             if (resp1 == iresp1 && resp2 == iresp2 && resp3 == iresp3)
             {
-                calif3.Text=("EXCELENTE");
+                calif3.Text = ("EXCELENTE");
             }
-            else if(resp1!=iresp1)
+            else if (resp1 != iresp1)
             {
                 calif3.Text = ("VUELVE A INTENTARLO");
             }
-            else if (resp2 !=iresp2)
+            else if (resp2 != iresp2)
             {
                 calif3.Text = ("VUELVE A INTENTARLO");
             }

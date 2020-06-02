@@ -183,5 +183,14 @@
   <ItemGroup>
     <None Include="Resources\NADAR.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C3.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

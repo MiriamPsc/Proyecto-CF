@@ -13,3 +13,6 @@ C:\Users\miria\source\repos\2P\2P\obj\Debug\_2P.Primero.resources
 C:\Users\miria\source\repos\2P\2P\obj\Debug\_2P.M1.resources
 C:\Users\miria\source\repos\2P\2P\obj\Debug\_2P.MA1.resources
 C:\Users\miria\source\repos\2P\2P\obj\Debug\_2P.Segundo.resources
+C:\Users\miria\source\repos\2P\2P\obj\Debug\_2P.E2.resources
+C:\Users\miria\source\repos\2P\2P\obj\Debug\_2P.M2.resources
+C:\Users\miria\source\repos\2P\2P\obj\Debug\_2P.MA2.resources

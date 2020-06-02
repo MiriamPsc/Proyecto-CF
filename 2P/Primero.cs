@@ -13,6 +13,8 @@ namespace _2P
     public partial class Primero : Form
     {
         Form Volver = new Inicio();
+        Salida Exit = new Salida();
+
         public Primero()
         {
             InitializeComponent();
@@ -41,7 +43,7 @@ namespace _2P
 
         private void Primero_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Volver.Show();
+            Exit.Salir();
         }
     }
 }
