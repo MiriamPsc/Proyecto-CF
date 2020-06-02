@@ -173,6 +173,16 @@ namespace _2P.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CUERPO {
+            get {
+                object obj = ResourceManager.GetObject("CUERPO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FAMILIA {
             get {
                 object obj = ResourceManager.GetObject("FAMILIA", resourceCulture);
