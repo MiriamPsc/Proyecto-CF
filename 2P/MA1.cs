@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace _2P
 {
@@ -14,6 +15,7 @@ namespace _2P
     {
         Salida Exit = new Salida();
         Form MenuPrimero = new Primero();
+        string carpeta, archivo;
         public MA1()
         {
             InitializeComponent();
@@ -80,5 +82,34 @@ namespace _2P
                 label11.Text = ("INTENTA DE NUEVO");
             }
         }
+
+        private void MA1_Load(object sender, EventArgs e)
+        {
+            AbrirTexto();
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            if (rbt1.Checked == true)
+            {
+                lbl.Text = ("MUY BIEN");
+            }
+            else if (rbt2.Checked == true)
+            {
+                lbl.Text = ("INTENTA DE NUEVO");
+            }
+            else if (rbt3.Checked == true)
+            {
+                lbl.Text = ("INTENTA DE NUEVO");
+            }
+        }
+
+        public void AbrirTexto()
+        {
+            carpeta = @"C:\Users\miria\Desktop\PROYECTOCF\LAVACAPACA.txt";
+            archivo = File.ReadAllText(carpeta);
+            textBox1.Text = archivo;
+        }
+
     }
 }

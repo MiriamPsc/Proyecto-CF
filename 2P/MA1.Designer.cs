@@ -28,25 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem10 = new System.Windows.Forms.ListViewItem(new string[] {
             "Pierna"}, -1, System.Drawing.Color.Empty, System.Drawing.Color.Empty, new System.Drawing.Font("Bunny Daydream DEMO", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0))));
-            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem11 = new System.Windows.Forms.ListViewItem(new string[] {
             "Pie"}, -1, System.Drawing.Color.Empty, System.Drawing.Color.Empty, new System.Drawing.Font("Bunny Daydream DEMO", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0))));
-            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem12 = new System.Windows.Forms.ListViewItem(new string[] {
             "Ojos"}, -1, System.Drawing.Color.Empty, System.Drawing.Color.Empty, new System.Drawing.Font("Bunny Daydream DEMO", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0))));
-            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem13 = new System.Windows.Forms.ListViewItem(new string[] {
             "Cabeza"}, -1, System.Drawing.Color.Empty, System.Drawing.Color.Empty, new System.Drawing.Font("Bunny Daydream DEMO", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0))));
-            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem14 = new System.Windows.Forms.ListViewItem(new string[] {
             "Brazo"}, -1, System.Drawing.Color.Empty, System.Drawing.Color.Empty, new System.Drawing.Font("Bunny Daydream DEMO", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0))));
-            System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem15 = new System.Windows.Forms.ListViewItem(new string[] {
             "Nariz"}, -1, System.Drawing.Color.Empty, System.Drawing.Color.Empty, new System.Drawing.Font("Bunny Daydream DEMO", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0))));
-            System.Windows.Forms.ListViewItem listViewItem7 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem16 = new System.Windows.Forms.ListViewItem(new string[] {
             "Boca"}, -1, System.Drawing.Color.Empty, System.Drawing.Color.Empty, new System.Drawing.Font("Bunny Daydream DEMO", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0))));
-            System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem17 = new System.Windows.Forms.ListViewItem(new string[] {
             "Mano"}, -1, System.Drawing.Color.Empty, System.Drawing.Color.Empty, new System.Drawing.Font("Bunny Daydream DEMO", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0))));
-            System.Windows.Forms.ListViewItem listViewItem9 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem18 = new System.Windows.Forms.ListViewItem(new string[] {
             "Oreja"}, -1, System.Drawing.Color.Empty, System.Drawing.Color.Empty, new System.Drawing.Font("Bunny Daydream DEMO", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0))));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.cbb9 = new System.Windows.Forms.ComboBox();
             this.cbb8 = new System.Windows.Forms.ComboBox();
             this.cbb7 = new System.Windows.Forms.ComboBox();
@@ -67,12 +68,21 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnVolver = new System.Windows.Forms.Button();
-            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.rbt1 = new System.Windows.Forms.RadioButton();
+            this.rbt2 = new System.Windows.Forms.RadioButton();
+            this.rbt3 = new System.Windows.Forms.RadioButton();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.lbl = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -102,12 +112,23 @@
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.pictureBox1);
             this.groupBox1.Font = new System.Drawing.Font("Republica Banana DEMO", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(12, 94);
+            this.groupBox1.Location = new System.Drawing.Point(12, 113);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(455, 520);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "UNIDAD 1";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Republica Banana DEMO", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label11.Location = new System.Drawing.Point(210, 443);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(0, 48);
+            this.label11.TabIndex = 20;
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // cbb9
             // 
@@ -308,15 +329,15 @@
             this.listView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listView1.HideSelection = false;
             this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1,
-            listViewItem2,
-            listViewItem3,
-            listViewItem4,
-            listViewItem5,
-            listViewItem6,
-            listViewItem7,
-            listViewItem8,
-            listViewItem9});
+            listViewItem10,
+            listViewItem11,
+            listViewItem12,
+            listViewItem13,
+            listViewItem14,
+            listViewItem15,
+            listViewItem16,
+            listViewItem17,
+            listViewItem18});
             this.listView1.Location = new System.Drawing.Point(309, 113);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(76, 271);
@@ -405,6 +426,115 @@
             this.label9.TabIndex = 7;
             this.label9.Text = "9";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Sunday Best", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.LimeGreen;
+            this.label1.Location = new System.Drawing.Point(292, 28);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(370, 92);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "CONOCIMIENTO DEL MEDIO\r\nPRIMER GRADO";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.lbl);
+            this.groupBox4.Controls.Add(this.button1);
+            this.groupBox4.Controls.Add(this.pictureBox2);
+            this.groupBox4.Controls.Add(this.rbt3);
+            this.groupBox4.Controls.Add(this.rbt2);
+            this.groupBox4.Controls.Add(this.rbt1);
+            this.groupBox4.Controls.Add(this.label12);
+            this.groupBox4.Controls.Add(this.textBox1);
+            this.groupBox4.Font = new System.Drawing.Font("Republica Banana DEMO", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox4.Location = new System.Drawing.Point(473, 113);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(557, 520);
+            this.groupBox4.TabIndex = 11;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "UNIDAD 2";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(7, 33);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.textBox1.ShortcutsEnabled = false;
+            this.textBox1.Size = new System.Drawing.Size(544, 175);
+            this.textBox1.TabIndex = 0;
+            // 
+            // btnVolver
+            // 
+            this.btnVolver.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnVolver.Font = new System.Drawing.Font("Republica Banana DEMO", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolver.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnVolver.Location = new System.Drawing.Point(18, 55);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(100, 41);
+            this.btnVolver.TabIndex = 12;
+            this.btnVolver.Text = "VOLVER";
+            this.btnVolver.UseVisualStyleBackColor = false;
+            this.btnVolver.Click += new System.EventHandler(this.BtnVolver_Click);
+            // 
+            // label12
+            // 
+            this.label12.Font = new System.Drawing.Font("Bunny Daydream DEMO", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(7, 218);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(550, 49);
+            this.label12.TabIndex = 1;
+            this.label12.Text = "¿Cuáles son los animales mencionados en el cuento?";
+            // 
+            // rbt1
+            // 
+            this.rbt1.AutoSize = true;
+            this.rbt1.Font = new System.Drawing.Font("Bunny Daydream DEMO", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbt1.Location = new System.Drawing.Point(14, 266);
+            this.rbt1.Name = "rbt1";
+            this.rbt1.Size = new System.Drawing.Size(101, 91);
+            this.rbt1.TabIndex = 2;
+            this.rbt1.TabStop = true;
+            this.rbt1.Text = "Vacas.\r\nConejos.\r\nCaballos.";
+            this.rbt1.UseVisualStyleBackColor = true;
+            // 
+            // rbt2
+            // 
+            this.rbt2.AutoSize = true;
+            this.rbt2.Font = new System.Drawing.Font("Bunny Daydream DEMO", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbt2.Location = new System.Drawing.Point(14, 363);
+            this.rbt2.Name = "rbt2";
+            this.rbt2.Size = new System.Drawing.Size(106, 91);
+            this.rbt2.TabIndex = 3;
+            this.rbt2.TabStop = true;
+            this.rbt2.Text = "Vacas.\r\nCamellos.\r\nPerros.";
+            this.rbt2.UseVisualStyleBackColor = true;
+            // 
+            // rbt3
+            // 
+            this.rbt3.AutoSize = true;
+            this.rbt3.Font = new System.Drawing.Font("Bunny Daydream DEMO", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbt3.Location = new System.Drawing.Point(149, 324);
+            this.rbt3.Name = "rbt3";
+            this.rbt3.Size = new System.Drawing.Size(101, 91);
+            this.rbt3.TabIndex = 4;
+            this.rbt3.TabStop = true;
+            this.rbt3.Text = "Caballos.\r\nVacas.\r\nCerdos.\r\n";
+            this.rbt3.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::_2P.Properties.Resources.granja;
+            this.pictureBox2.Location = new System.Drawing.Point(309, 296);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(226, 130);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 5;
+            this.pictureBox2.TabStop = false;
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::_2P.Properties.Resources.CUERPO;
@@ -415,51 +545,26 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // label1
+            // button1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Sunday Best", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.LimeGreen;
-            this.label1.Location = new System.Drawing.Point(292, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(370, 92);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "CONOCIMIENTO DEL MEDIO\r\nPRIMER GRADO";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.button1.Font = new System.Drawing.Font("Republica Banana DEMO", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button1.Location = new System.Drawing.Point(138, 443);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(91, 41);
+            this.button1.TabIndex = 21;
+            this.button1.Text = "CALIFICAR";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
-            // groupBox4
+            // lbl
             // 
-            this.groupBox4.Font = new System.Drawing.Font("Republica Banana DEMO", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.Location = new System.Drawing.Point(473, 94);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(498, 469);
-            this.groupBox4.TabIndex = 11;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "UNIDAD 2";
-            // 
-            // btnVolver
-            // 
-            this.btnVolver.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.btnVolver.Font = new System.Drawing.Font("Republica Banana DEMO", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVolver.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnVolver.Location = new System.Drawing.Point(18, 36);
-            this.btnVolver.Name = "btnVolver";
-            this.btnVolver.Size = new System.Drawing.Size(100, 41);
-            this.btnVolver.TabIndex = 12;
-            this.btnVolver.Text = "VOLVER";
-            this.btnVolver.UseVisualStyleBackColor = false;
-            this.btnVolver.Click += new System.EventHandler(this.BtnVolver_Click);
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Republica Banana DEMO", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label11.Location = new System.Drawing.Point(210, 443);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(0, 48);
-            this.label11.TabIndex = 20;
-            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl.AutoSize = true;
+            this.lbl.Location = new System.Drawing.Point(284, 451);
+            this.lbl.Name = "lbl";
+            this.lbl.Size = new System.Drawing.Size(0, 25);
+            this.lbl.TabIndex = 22;
             // 
             // MA1
             // 
@@ -475,8 +580,12 @@
             this.Name = "MA1";
             this.Text = "MA1";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MA1_FormClosed);
+            this.Load += new System.EventHandler(this.MA1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -510,5 +619,13 @@
         private System.Windows.Forms.ComboBox cbb3;
         private System.Windows.Forms.ComboBox cbb2;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.RadioButton rbt3;
+        private System.Windows.Forms.RadioButton rbt2;
+        private System.Windows.Forms.RadioButton rbt1;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label lbl;
     }
 }

@@ -405,7 +405,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(893, 564);
+            this.ClientSize = new System.Drawing.Size(886, 564);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
