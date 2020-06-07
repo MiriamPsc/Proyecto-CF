@@ -386,6 +386,7 @@
             this.label2.TabIndex = 8;
             this.label2.Text = "MATEMÁTICAS \r\nPRIMER GRADO";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label2.Visible = false;
             // 
             // btnVolver
             // 
@@ -415,6 +416,7 @@
             this.Name = "M1";
             this.Text = "M1";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.M1_FormClosed);
+            this.Load += new System.EventHandler(this.M1_Load);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);

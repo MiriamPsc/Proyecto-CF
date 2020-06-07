@@ -15,6 +15,7 @@ namespace _2P
         Salida Exit = new Salida();
         Form MenuPrimero = new Primero();
         int  r1=27, r2=36, r3=14, r12=240,r22=77, r32=68;
+        IDeshabilitar L = new Limpieza();
         public M1()
         {
             InitializeComponent();
@@ -81,6 +82,12 @@ namespace _2P
                 e.Handled = true;
             }
         }
+
+        private void M1_Load(object sender, EventArgs e)
+        {
+            label2.Visible = L.Limpiar();
+        }
+
         private void TextBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
@@ -153,7 +160,5 @@ namespace _2P
             }
 
         }
-
-
     }
 }

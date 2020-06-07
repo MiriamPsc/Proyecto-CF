@@ -129,6 +129,7 @@
             this.Name = "Inicio";
             this.Text = "MENÚ";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Inicio_FormClosed);
+            this.Load += new System.EventHandler(this.Inicio_Load);
             ((System.ComponentModel.ISupportInitialize)(this.P6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.P5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.P4)).EndInit();

@@ -46,17 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Deshabilitar.cs" />
     <Compile Include="E1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="E1.Designer.cs">
       <DependentUpon>E1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="E2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="E2.Designer.cs">
-      <DependentUpon>E2.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -70,23 +65,11 @@
     <Compile Include="M1.Designer.cs">
       <DependentUpon>M1.cs</DependentUpon>
     </Compile>
-    <Compile Include="M2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="M2.Designer.cs">
-      <DependentUpon>M2.cs</DependentUpon>
-    </Compile>
     <Compile Include="MA1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MA1.Designer.cs">
       <DependentUpon>MA1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MA2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MA2.Designer.cs">
-      <DependentUpon>MA2.cs</DependentUpon>
     </Compile>
     <Compile Include="Primero.cs">
       <SubType>Form</SubType>
@@ -97,17 +80,8 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Salida.cs" />
-    <Compile Include="Segundo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Segundo.Designer.cs">
-      <DependentUpon>Segundo.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="E1.resx">
       <DependentUpon>E1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="E2.resx">
-      <DependentUpon>E2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -115,14 +89,8 @@
     <EmbeddedResource Include="M1.resx">
       <DependentUpon>M1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="M2.resx">
-      <DependentUpon>M2.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="MA1.resx">
       <DependentUpon>MA1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MA2.resx">
-      <DependentUpon>MA2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Primero.resx">
       <DependentUpon>Primero.cs</DependentUpon>
@@ -137,9 +105,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Segundo.resx">
-      <DependentUpon>Segundo.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
